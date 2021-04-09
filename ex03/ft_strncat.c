@@ -6,7 +6,7 @@
 /*   By: dludtke- <dludtke-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/08 19:01:31 by dludtke-          #+#    #+#             */
-/*   Updated: 2021/04/08 19:02:59 by dludtke-         ###   ########.fr       */
+/*   Updated: 2021/04/09 22:51:09 by dludtke-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int		ft_strlen(char *s)
 
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	int dest_size;
-	int i;
+	unsigned int dest_size;
+	unsigned int i;
 
 	dest_size = ft_strlen(dest);
 	i = 0;

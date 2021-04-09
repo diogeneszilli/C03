@@ -6,7 +6,7 @@
 /*   By: dludtke- <dludtke-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/08 19:18:49 by dludtke-          #+#    #+#             */
-/*   Updated: 2021/04/08 19:45:59 by dludtke-         ###   ########.fr       */
+/*   Updated: 2021/04/09 22:53:28 by dludtke-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 
 	dest_size = 0;
 	i = 0;
-	while (dest[i] != '\0')
+	while (dest[dest_size] != '\0')
 		dest_size++;
 	if (size > 0)
 	{
