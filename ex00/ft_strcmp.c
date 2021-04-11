@@ -6,7 +6,7 @@
 /*   By: dludtke- <dludtke-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/08 18:15:04 by dludtke-          #+#    #+#             */
-/*   Updated: 2021/04/08 18:35:13 by dludtke-         ###   ########.fr       */
+/*   Updated: 2021/04/11 19:36:52 by dludtke-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,5 @@ int		ft_strcmp(char *s1, char *s2)
 	i = 0;
 	while ((s1[i] && s2[i]) && (s1[i] == s2[i]))
 		i++;
-	return (s1[i] - s2[i]);
+	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
